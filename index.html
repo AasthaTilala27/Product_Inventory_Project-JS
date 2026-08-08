@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="top">
+
+        <button onclick="addItem()" class="add">
+            Add Product
+        </button>
+
+        <select class="select" onchange="sortItem(this.value)">
+            <option value="">All Products</option>
+            <option value="low">Price Low To High</option>
+            <option value="high">Price High To Low</option>
+        </select>
+
+    </div>
+
+    <div class="box"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
