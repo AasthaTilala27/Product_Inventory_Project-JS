@@ -1,73 +1,63 @@
 const data = [
-  {
-    name: "Classic White T-Shirt",
-    price: 499,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgyZKqpRYbS89b3zjiQm0seDB0dCoRC8ZERc0WLJ9waw&s=10",
-  },
+    {
+        name: "Oversized Black Hoodie",
+        price: 899,
+        image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+    },
 
-  {
-    name: "Blue Denim Jeans",
-    price: 1299,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDpQ5R6eSutN__BTp8XD7RoOjzgck0yADbR8072L2TtA&s=10",
-  },
+    {
+        name: "Brown Casual Jacket",
+        price: 1899,
+        image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    },
 
-  {
-    name: "Running Shoes",
-    price: 2499,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMfBMQvsliWhB0R6ITqlXFwfs8cA0Gs2E5l1YZXJW1vg&s=10",
-  },
+    {
+        name: "White Sneakers",
+        price: 2299,
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"
+    },
 
-  {
-    name: "Leather Wallet",
-    price: 799,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdp_l3D5NVm1i0dRcHYR5ntnzpbHOz3OmD0znsUXzrOw&s=10",
-  },
+    {
+        name: "Canvas Travel Bag",
+        price: 1599,
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500"
+    },
 
-  {
-    name: "Smart Watch",
-    price: 3999,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBiMt8aiVhRB9TtxTT6Wuun_BQ48cW-jUwUdCe17C3lQ&s",
-  },
+    {
+        name: "Classic Analog Watch",
+        price: 2799,
+        image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500"
+    },
 
-  {
-    name: "Wireless Headphones",
-    price: 2999,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTldCKbbMq6iJO70ifIGtJTtqPjcwbm9sRfi9-ZTImuIw&s",
-  },
+    {
+        name: "Wireless Earbuds",
+        price: 1799,
+        image: "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500"
+    },
 
-  {
-    name: "Laptop Backpack",
-    price: 1499,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR41xUGc-oODgCONaagepV4mM--150Gc9mxKMkjwVN65g&s",
-  },
+    {
+        name: "Round Frame Glasses",
+        price: 699,
+        image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500"
+    },
 
-  {
-    name: "Sunglasses",
-    price: 999,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMIQFsXS29aMW7g3lRF2TjIY3AJmZoh0sEkOW-NqBe4g&s=10",
-  },
+    {
+        name: "Ceramic Coffee Mug",
+        price: 399,
+        image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500"
+    },
 
-  {
-    name: "Bluetooth Speaker",
-    price: 1999,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvD9jlvU3rGhus-hZAOyjflbV3Q-_wafAZ4332BCYyug&s=10",
-  },
+    {
+        name: "Minimal Desk Lamp",
+        price: 1199,
+        image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500"
+    },
 
-  {
-    name: "Sports Cap",
-    price: 599,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIBpC4fmCpEyyFoVH6bKmRJuDbugc0UiFoxashWiEPKg&s=10",
-  },
+    {
+        name: "Leather Crossbody Bag",
+        price: 1399,
+        image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500"
+    }
 ];
 
 if (localStorage.getItem("data") == null) {
